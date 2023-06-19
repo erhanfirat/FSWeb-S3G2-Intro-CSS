@@ -1,12 +1,13 @@
-
-html, body {
-  font-family: 'Roboto Mono', monospace;
+html,
+body {
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
 }
 
 .container {
   margin: 0 3%;
+  padding: 0;
 }
 
 .container-2 {
@@ -32,7 +33,7 @@ html, body {
   float: left;
 }
 
-.f-right  {
+.f-right {
   float: right;
 }
 
@@ -40,12 +41,12 @@ html, body {
   display: inline-block;
   border-radius: 5px;
   background: #333;
-  text-decoration: none; 
+  text-decoration: none;
   color: #fff;
   width: 120px;
   height: 60px;
   line-height: 60px;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .nav-btn > span {
@@ -55,30 +56,30 @@ html, body {
 }
 
 .bg-orange {
-  background: #FF764E;
+  background: #ff764e;
 }
 .bg-blue {
-  background: #5ED3EB;
+  background: #5ed3eb;
 }
 .bg-yellow {
-  background: #FFCD69;
+  background: #ffcd69;
 }
 
 .info-text {
   color: #fff;
-  background: #DDB9A3;
-  font-family: 'Chelsea Market', cursive;
-  padding: .5rem;
+  background: #ddb9a3;
+  font-family: "Chelsea Market", cursive;
+  padding: 0.5rem;
   margin-top: 1rem;
 }
 
 .footer-bg {
-  background: url('./assets/footer_img.jpg');
+  background: url("./assets/footer_img.jpg");
   background-size: cover;
   height: 150px;
 }
 
 .footer-nav {
   padding: 1rem;
-  background: #F9E7DC;
+  background: #f9e7dc;
 }
